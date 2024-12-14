@@ -4,7 +4,7 @@ from db import *
 
 engin = create_engine("sqlite:///database.db", echo=True)
 
-GOOGLE_API_KEY = "AIzaSyDp0dC2CaEeRpOhk1J7taZgIKatxxqVWLE"  # add your GOOGLE API key here
+GOOGLE_API_KEY = ""  # add your GOOGLE API key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 def chatbot(message, includeData=False): 
