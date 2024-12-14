@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>HealthBot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/style/style.css">
+</head>
+
+<body>
+    <div class="sidebar collapsed">
+        <div class="tooltip">
+            <span class="tooltiptext">
+              Open Sidebar
+              </span>
+            <button id="sidebar-toggle">
+              <i class="fas fa-chevron-right"></i>
+              </button>
+        </div>
+        <div class="sidebar-content">
+            <div class="conversation-list">
+                <div class="conversation">
+                    <select name="users" id="users">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option> 
+                    </select>
+                    <!-- Name -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Name" value="Zara" required><br><br>
+            
+                    <!-- Age -->
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="Age" value="26" required><br><br>
+            
+                    <!-- Status -->
+                    <label for="status">Status:</label>
+                    <select id="status" name="Status" required>
+                        <option value="Engaged" selected>Engaged</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                    </select><br><br>
+            
+                    <!-- Gender -->
+                    <div class="gender">
+                        <label for="gender" >Gender:</label>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="Gender" value="Female" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="Gender" value="Male"> <br><br>
+                    </div>
+                    <!-- Blood Type -->
+                    <label for="bloodType">Blood Type:</label>
+                    <input type="text" id="bloodType" name="BloodType" value="A+" required><br><br>
+            
+                    <!-- Allergic -->
+                        <div class="allergic">
+                        <label for="allergic">Allergic:</label>
+                        <input type="radio" id="yes" name="Allergic" value="Yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="Allergic" value="No" checked>
+                        <label for="no">No</label><br><br>
+                        </div>
+                
+            
+                    <!-- Medical History -->
+                    <label for="history">Medical History:</label>
+                    <textarea id="history" name="History" rows="4" cols="50" required>No significant medical history. Regular health screenings.</textarea><br><br>
+            
+                    <!-- Phone Number -->
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="PhoneNumber" value="+965 5XXX XXXX" required><br><br>
+            
+                    <!-- City -->
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="City" value="Hawalli" required><br><br>
+                    <button id="send-button">Add</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat-container light-mode">
+        <div class="chat-content">
+            <div class="chat-header">
+                <div class="logo-container">
+                    <h1>HealthBot&nbsp;
+                      <i class="fa fa-caret-down"></i>
+                      </h1>
+                </div>
+                <div class="mode-toggle">
+                    <h2 id="mode_name">Light Mode</h2>
+                    <label class="switch">
+                        <input type="checkbox" 
+                               id="mode-toggle-checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+            </div>
+            <div class="chat-box-container">
+                <div class="chat-box" id="chat-box">
+                    <h3>User:</h3>
+                </div>
+                <div class="chat-box" id="bot-box">
+                    <h3>HealthBot:</h3>
+                </div>
+            </div>
+            <div class="input-container">
+                <input type="text" id="user-input" class="user-input" style=""
+                       placeholder="Type your message...">
+
+                <input type="checkbox" id="use-data" class="check-input" style=""
+                      >
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

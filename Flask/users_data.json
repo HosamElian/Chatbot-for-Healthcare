@@ -1,0 +1,122 @@
+[
+    {
+        "ID": 1,
+        "Name": "Omar",
+        "Age": 22,
+        "Status": "Single",
+        "Gender": "Male",
+        "BloodType": "O+",
+        "Allergic": "No",
+        "History": "Not significant in his medical history. Regular check-ups.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Hawalli"
+    },
+    {
+        "ID": 2,
+        "Name": "Aisha",
+        "Age": 25,
+        "Status": "Married",
+        "Gender": "Female",
+        "BloodType": "A+",
+        "Allergic": "Peanuts",
+        "History": "Diagnosed with asthma at age 10. Uses an inhaler as needed.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Mubarak Al-Kabeer"
+    },
+    {
+        "ID": 3,
+        "Name": "Jamal",
+        "Age": 30,
+        "Status": "Divorced",
+        "Gender": "Male",
+        "BloodType": "B-",
+        "Allergic": "No",
+        "History": "Had a minor surgery for appendicitis in 2015. Fully recovered.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Al Ahmadi"
+    },
+    {
+        "ID": 4,
+        "Name": "Fatima",
+        "Age": 28,
+        "Status": "Single",
+        "Gender": "Female",
+        "BloodType": "AB+",
+        "Allergic": "Dust",
+        "History": "History of eczema. Occasionally uses topical creams.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Farwaniya"
+    },
+    {
+        "ID": 5,
+        "Name": "Hassan",
+        "Age": 35,
+        "Status": "Married",
+        "Gender": "Male",
+        "BloodType": "O-",
+        "Allergic": "No",
+        "History": "High blood pressure managed with medication.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Capital Governorate"
+    },
+    {
+        "ID": 6,
+        "Name": "Sara",
+        "Age": 24,
+        "Status": "Single",
+        "Gender": "Female",
+        "BloodType": "B+",
+        "Allergic": "Latex",
+        "History": "History of migraines. Takes medication as needed.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Jahra"
+    },
+    {
+        "ID": 7,
+        "Name": "Ali",
+        "Age": 27,
+        "Status": "In a relationship",
+        "Gender": "Male",
+        "BloodType": "A-",
+        "Allergic": "No",
+        "History": "No significant medical history. Active lifestyle.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Salmiya"
+    },
+    {
+        "ID": 8,
+        "Name": "Layla",
+        "Age": 29,
+        "Status": "Married",
+        "Gender": "Female",
+        "BloodType": "AB-",
+        "Allergic": "Shellfish",
+        "History": "Diagnosed with hypothyroidism. Regularly monitored.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Ahmadi"
+    },
+    {
+        "ID": 9,
+        "Name": "Khalid",
+        "Age": 32,
+        "Status": "Single",
+        "Gender": "Male",
+        "BloodType": "O+",
+        "Allergic": "No",
+        "History": "Previous knee injury from sports. No ongoing issues.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Mubarak Al-Kabeer"
+    },
+    {
+        "ID": 10,
+        "Name": "Zara",
+        "Age": 26,
+        "Status": "Engaged",
+        "Gender": "Female",
+        "BloodType": "A+",
+        "Allergic": "No",
+        "History": "No significant medical history. Regular health screenings.",
+        "PhoneNumber": "+965 5XXX XXXX",
+        "City": "Hawalli"
+    }
+]
